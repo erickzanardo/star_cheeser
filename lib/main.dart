@@ -5,7 +5,9 @@ import 'package:star_cheese/game.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await GoogleFonts.pendingFonts([GoogleFonts.pressStart2p()],);
+  await GoogleFonts.pendingFonts(
+    [GoogleFonts.pressStart2p()],
+  );
 
   runApp(
     GameWidget(
